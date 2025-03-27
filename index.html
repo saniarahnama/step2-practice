@@ -13,13 +13,14 @@
       }
       @font-face {
       font-family: 'body-font'; 
-      src: url('OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+      src: url('./assests/fonts/Raleway-VariableFont_wght.ttf') format('truetype');
       
       }
-      /* @font-face {
+      @font-face {
       font-family: 'body-font'; 
-      src: url('OpenSans-Italic-VariableFont_wdth,wght.ttf') format('truetype');
-      } */
+      src: url('./assests/fonts/OpenSans-VariableFont_wdthwght.ttf') format('truetype');
+      font-weight: 400;
+      }
 
    
       .bg-sec2{
@@ -49,7 +50,7 @@
         background-color:  hsl(243, 87%, 12%);
       }
       .font{
-        font-family: 'MyCustomFont', sans-serif;      
+        font-family: 'MyCustomFont';      
       }
       .body-font{
         font-family: 'body-font' ;
@@ -64,23 +65,23 @@
       <nav class="navbar navbar-expand-lg bg-body-white mt-3  ">
         <div class="container">
           <a class="navbar-brand" href="#">
-            <img src="logo.svg" alt="Logo" width="75px" height=auto class="d-inline-block align-text-top">
+            <img src="./assests/images/logo.svg" alt="Logo" width="75px" height=auto class="d-inline-block align-text-top">
             
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
+            <ul class="navbar-nav ms-auto  mb-2 mb-lg-0">
+              <li class="nav-item text-start">
                 <a class="nav-link font" href="#">Features</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link mx-4 font" href="# " >Team</a>
+              <li class="nav-item text-start">
+                <a class="nav-link  mx-sm-4 font" href="# " >Team</a>
               </li>
               
               <li class="nav-item">
-                <a class="nav-link me-2 font">Sign in</a>
+                <a class="nav-link me-2  font">Sign in</a>
               </li>
           </div>
         </div>
@@ -90,7 +91,7 @@
       <div class="container mt-5 ">
       <div class="row align-items-center ">
         <div class="order-sm-2 col-12 col-sm-6 " >
-          <img src="illustration-1.svg" class="img-fluid" alt="...">
+          <img src="./assests/images/illustration-1.svg" class="img-fluid" alt="...">
         </div>
         <div class=" order-sm-1 col-12 col-sm-6  text-center text-sm-start body-font">
           <h1 >All your files in one secure location, accessible anywhere.</h1>
@@ -115,20 +116,20 @@
       <div class="container pb-5">
         <div class="row ">
           <div class="order-sm-2 col-12 col-sm-6 " >
-            <img src="illustration-2.svg" class="img-fluid" alt="...">
+            <img src="./assests/images/illustration-2.svg" class="img-fluid" alt="...">
           </div>
           <div class=" order-sm-1 col-12 col-sm-6 text-center text-sm-start body-font">
             <h2>Stay productive, wherever you are</h2>
             <p>Never let location be an issue when accessing your files.Fylo has you covered for all of your file storage needs.</p>
             <p>Securely share files and folders with friends,famly and coeagues for live collaboration. No email attachments requiered!</p>
-            <p><a href="#" class="link-green link-offset-2 text-center text-sm-start">See how fylo works</a><img src="icon-arrow.svg" alt=""></p>
+            <p><a href="#" class="link-green link-offset-2 text-center text-sm-start">See how fylo works</a><img src="./assests/images/icon-arrow.svg" alt=""></p>
             <div class="card shadow mt-5 mx-auto ms-sm-0" style="width: 27rem;">
               <div class="card-body">
-                <div class="card-title"><h5 class="card-title"><img src="icon-quotes.svg" alt=""></h5></div>
+                <div class="card-title"><h5 class="card-title"><img src="./assests/images/icon-quotes.svg" alt=""></h5></div>
                 
                 <p class="card-text">fhrtshthkfjkbvdjbhhfdbjbdhbdbgidbgfjbgkdfbghfsdbkdsbfkbfgkdbvfbsbgkbghidoghieorhgoehgvbkjfbjbbioiogotrhgoronvnfborgntrhnrtpieriprtdngdfkf</p>
                <div class="d-flex gap-2">
-                <img src="avatar-testimonial.jpg" class="card-img-button rounded-circle card-img " alt="...">
+                <img src="./assests/images/avatar-testimonial.jpg" class="card-img-button rounded-circle card-img " alt="...">
                 <span >
                  <p class="h5">kyle burton</p>
                  <p class="fs-6">Founder</p>
@@ -177,11 +178,11 @@
         <div class="row body-font ">
           <div class="col-sm-3 d-flex flex-column ">
             <div class="mt-2">
-              <img  src="icon-phone.svg" alt="">
+              <img  src="./assests/images/icon-phone.svg" alt="">
               <p class="ms-2 d-inline fs-6 text-color">Phone:+1-543-123-4567</p>
            </div>
            <div class="mt-2">
-              <img  src="icon-email.svg" alt="">
+              <img  src="./assests/images/icon-email.svg" alt="">
               <p class="ms-2 d-inline fs-6 text-color">example@fylo.com</p>
            </div>
            </div>
